@@ -19,7 +19,7 @@ app.get('/:t/:l', function(req, res){
         html += '<td>'
         
         if(i==minion.top && j==minion.left ){
-            html+= '<img src="minion.jpg" height="40" width=40"px">';
+            html+= '<img src="minion.jpg" height="40" width="40">';
         }
     
     html+='</td>'
